@@ -1,4 +1,6 @@
 //  时间：2021.11.23  21点05分
+//  思路：将初始日期变为8位数字，然后依次加一，如果满足日期的条件则加一
+// 直到满足条件的次数大于题目中所给的n 
 #include<iostream>
 using namespace std;
 
@@ -32,10 +34,10 @@ int main ()
 		int res=0,t=0;
 		for(int i=s;i<=20200101;i++){//然后依次给这个数加一，检查其合法性 
 			if(test(i)){
-				res++;
+				res++;	//只有当此时的i是合法的日期的时候才计数 
 				t=i;
 			}
-			if(res>n) break;
+			if(res>n) break;//因为i是从s开始的，所以需要当res>n的时候退出循环 
 		}
 		int x=t%100;//日 
 		int y=t/100%100;//月
