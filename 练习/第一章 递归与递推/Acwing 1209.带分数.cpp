@@ -11,7 +11,7 @@
  bool st[N],backup[N];
  bool check(int a,int c)
  {
-     int b=n*c-a*c;
+     long long  b=n*(long long)c-a*c;
      
      if(!a||!b||!c) return false;
      memcpy(backup,st,sizeof st);
