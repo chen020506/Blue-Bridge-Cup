@@ -1,5 +1,5 @@
 //  时间：2022.07.23 10点34分
-//  来源：第八届蓝桥杯省赛C++A/B组,第八届蓝桥杯省赛JAVAA/B组
+//  来源：第八届蓝桥杯省赛C++A/B组,第八届蓝桥杯省赛JAVA A/B组
 //  算法：二分
 #include<iostream>
 #include<cstdio>
